@@ -18,6 +18,6 @@ function median(A, B) {
   
   medianOfArray =
     outputArray[outputArray.length / 2] +
-    outputArray[outputArray.length / 2 + 1];
+    outputArray[(outputArray.length / 2 + 1)];
   return medianOfArray / 2;
 }
