@@ -15,7 +15,7 @@ function median(A, B) {
   outputArray.sort(function (a, b) {
     return a - b;
   });
-  console.log(outputArray);
+  
   medianOfArray =
     outputArray[outputArray.length / 2] +
     outputArray[outputArray.length / 2 + 1];
